@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'pry'
+require_relative '../base_hash_structure.rb'
+require_relative '../encoding_based_hash_structure.rb'
+include JoshsHashStructures
+
+binding.pry
